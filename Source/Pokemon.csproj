@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7D21B4A-1DA7-41D8-B202-C58CA8FA62AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pokemon</RootNamespace>
+    <AssemblyName>Pokemon</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Pokemon - Release\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=1.0.6864.30166, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <None Include="..\About\**" />
+    <None Include="..\Defs\**" />
+    <None Include="..\Languages\**" />
+    <None Include="..\Patches\**" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModSettings.cs" />
+    <Compile Include="PokedexDef.cs" />
+    <Compile Include="Pokemon.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Sounds\Cries\001.wav" />
+    <Content Include="..\Sounds\Cries\002.wav" />
+    <Content Include="..\Sounds\Cries\003.wav" />
+    <Content Include="..\Sounds\Cries\003M.wav" />
+    <Content Include="..\Sounds\Cries\004.wav" />
+    <Content Include="..\Sounds\Cries\005.wav" />
+    <Content Include="..\Sounds\Cries\006.wav" />
+    <Content Include="..\Sounds\Cries\006X.wav" />
+    <Content Include="..\Sounds\Cries\006Y.wav" />
+    <Content Include="..\Sounds\Cries\007.wav" />
+    <Content Include="..\Sounds\Cries\008.wav" />
+    <Content Include="..\Sounds\Cries\009.wav" />
+    <Content Include="..\Sounds\Cries\009M.wav" />
+    <Content Include="..\Sounds\Cries\010.wav" />
+    <Content Include="..\Sounds\Cries\011.wav" />
+    <Content Include="..\Sounds\Cries\012.wav" />
+    <Content Include="..\Sounds\Cries\013.wav" />
+    <Content Include="..\Sounds\Cries\014.wav" />
+    <Content Include="..\Sounds\Cries\015.wav" />
+    <Content Include="..\Sounds\Cries\015M.wav" />
+    <Content Include="..\Sounds\Cries\016.wav" />
+    <Content Include="..\Sounds\Cries\017.wav" />
+    <Content Include="..\Sounds\Cries\018.wav" />
+    <Content Include="..\Sounds\Cries\018M.wav" />
+    <Content Include="..\Sounds\Cries\019.wav" />
+    <Content Include="..\Sounds\Cries\020.wav" />
+    <Content Include="..\Sounds\Cries\021.wav" />
+    <Content Include="..\Sounds\Cries\022.wav" />
+    <Content Include="..\Sounds\Cries\023.wav" />
+    <Content Include="..\Sounds\Cries\024.wav" />
+    <Content Include="..\Sounds\Cries\025.wav" />
+    <Content Include="..\Sounds\Cries\026.wav" />
+    <Content Include="..\Sounds\Cries\027.wav" />
+    <Content Include="..\Sounds\Cries\028.wav" />
+    <Content Include="..\Sounds\Cries\029.wav" />
+    <Content Include="..\Sounds\Cries\030.wav" />
+    <Content Include="..\Sounds\Cries\031.wav" />
+    <Content Include="..\Sounds\Cries\032.wav" />
+    <Content Include="..\Sounds\Cries\033.wav" />
+    <Content Include="..\Sounds\Cries\034.wav" />
+    <Content Include="..\Sounds\Cries\035.wav" />
+    <Content Include="..\Sounds\Cries\036.wav" />
+    <Content Include="..\Sounds\Cries\037.wav" />
+    <Content Include="..\Sounds\Cries\038.wav" />
+    <Content Include="..\Sounds\Cries\039.wav" />
+    <Content Include="..\Sounds\Cries\040.wav" />
+    <Content Include="..\Sounds\Cries\041.wav" />
+    <Content Include="..\Sounds\Cries\042.wav" />
+    <Content Include="..\Sounds\Cries\043.wav" />
+    <Content Include="..\Sounds\Cries\044.wav" />
+    <Content Include="..\Sounds\Cries\045.wav" />
+    <Content Include="..\Sounds\Cries\046.wav" />
+    <Content Include="..\Sounds\Cries\047.wav" />
+    <Content Include="..\Sounds\Cries\048.wav" />
+    <Content Include="..\Sounds\Cries\049.wav" />
+    <Content Include="..\Sounds\Cries\050.wav" />
+    <Content Include="..\Sounds\Cries\051.wav" />
+    <Content Include="..\Sounds\Cries\052.wav" />
+    <Content Include="..\Sounds\Cries\053.wav" />
+    <Content Include="..\Sounds\Cries\054.wav" />
+    <Content Include="..\Sounds\Cries\055.wav" />
+    <Content Include="..\Sounds\Cries\056.wav" />
+    <Content Include="..\Sounds\Cries\057.wav" />
+    <Content Include="..\Sounds\Cries\058.wav" />
+    <Content Include="..\Sounds\Cries\059.wav" />
+    <Content Include="..\Sounds\Cries\060.wav" />
+    <Content Include="..\Sounds\Cries\061.wav" />
+    <Content Include="..\Sounds\Cries\062.wav" />
+    <Content Include="..\Sounds\Cries\063.wav" />
+    <Content Include="..\Sounds\Cries\064.wav" />
+    <Content Include="..\Sounds\Cries\065.wav" />
+    <Content Include="..\Sounds\Cries\065M.wav" />
+    <Content Include="..\Sounds\Cries\066.wav" />
+    <Content Include="..\Sounds\Cries\067.wav" />
+    <Content Include="..\Sounds\Cries\068.wav" />
+    <Content Include="..\Sounds\Cries\069.wav" />
+    <Content Include="..\Sounds\Cries\070.wav" />
+    <Content Include="..\Sounds\Cries\071.wav" />
+    <Content Include="..\Sounds\Cries\072.wav" />
+    <Content Include="..\Sounds\Cries\073.wav" />
+    <Content Include="..\Sounds\Cries\074.wav" />
+    <Content Include="..\Sounds\Cries\075.wav" />
+    <Content Include="..\Sounds\Cries\076.wav" />
+    <Content Include="..\Sounds\Cries\077.wav" />
+    <Content Include="..\Sounds\Cries\078.wav" />
+    <Content Include="..\Sounds\Cries\079.wav" />
+    <Content Include="..\Sounds\Cries\080.wav" />
+    <Content Include="..\Sounds\Cries\080M.wav" />
+    <Content Include="..\Sounds\Cries\081.wav" />
+    <Content Include="..\Sounds\Cries\082.wav" />
+    <Content Include="..\Sounds\Cries\083.wav" />
+    <Content Include="..\Sounds\Cries\084.wav" />
+    <Content Include="..\Sounds\Cries\085.wav" />
+    <Content Include="..\Sounds\Cries\086.wav" />
+    <Content Include="..\Sounds\Cries\087.wav" />
+    <Content Include="..\Sounds\Cries\088.wav" />
+    <Content Include="..\Sounds\Cries\089.wav" />
+    <Content Include="..\Sounds\Cries\090.wav" />
+    <Content Include="..\Sounds\Cries\091.wav" />
+    <Content Include="..\Sounds\Cries\092.wav" />
+    <Content Include="..\Sounds\Cries\093.wav" />
+    <Content Include="..\Sounds\Cries\094.wav" />
+    <Content Include="..\Sounds\Cries\094M.wav" />
+    <Content Include="..\Sounds\Cries\095.wav" />
+    <Content Include="..\Sounds\Cries\096.wav" />
+    <Content Include="..\Sounds\Cries\097.wav" />
+    <Content Include="..\Sounds\Cries\098.wav" />
+    <Content Include="..\Sounds\Cries\099.wav" />
+    <Content Include="..\Sounds\Cries\100.wav" />
+    <Content Include="..\Sounds\Cries\101.wav" />
+    <Content Include="..\Sounds\Cries\102.wav" />
+    <Content Include="..\Sounds\Cries\103.wav" />
+    <Content Include="..\Sounds\Cries\104.wav" />
+    <Content Include="..\Sounds\Cries\105.wav" />
+    <Content Include="..\Sounds\Cries\106.wav" />
+    <Content Include="..\Sounds\Cries\107.wav" />
+    <Content Include="..\Sounds\Cries\108.wav" />
+    <Content Include="..\Sounds\Cries\109.wav" />
+    <Content Include="..\Sounds\Cries\110.wav" />
+    <Content Include="..\Sounds\Cries\111.wav" />
+    <Content Include="..\Sounds\Cries\112.wav" />
+    <Content Include="..\Sounds\Cries\113.wav" />
+    <Content Include="..\Sounds\Cries\114.wav" />
+    <Content Include="..\Sounds\Cries\115.wav" />
+    <Content Include="..\Sounds\Cries\115M.wav" />
+    <Content Include="..\Sounds\Cries\116.wav" />
+    <Content Include="..\Sounds\Cries\117.wav" />
+    <Content Include="..\Sounds\Cries\118.wav" />
+    <Content Include="..\Sounds\Cries\119.wav" />
+    <Content Include="..\Sounds\Cries\120.wav" />
+    <Content Include="..\Sounds\Cries\121.wav" />
+    <Content Include="..\Sounds\Cries\122.wav" />
+    <Content Include="..\Sounds\Cries\123.wav" />
+    <Content Include="..\Sounds\Cries\124.wav" />
+    <Content Include="..\Sounds\Cries\125.wav" />
+    <Content Include="..\Sounds\Cries\126.wav" />
+    <Content Include="..\Sounds\Cries\127.wav" />
+    <Content Include="..\Sounds\Cries\127M.wav" />
+    <Content Include="..\Sounds\Cries\128.wav" />
+    <Content Include="..\Sounds\Cries\129.wav" />
+    <Content Include="..\Sounds\Cries\130.wav" />
+    <Content Include="..\Sounds\Cries\130M.wav" />
+    <Content Include="..\Sounds\Cries\131.wav" />
+    <Content Include="..\Sounds\Cries\132.wav" />
+    <Content Include="..\Sounds\Cries\133.wav" />
+    <Content Include="..\Sounds\Cries\134.wav" />
+    <Content Include="..\Sounds\Cries\135.wav" />
+    <Content Include="..\Sounds\Cries\136.wav" />
+    <Content Include="..\Sounds\Cries\137.wav" />
+    <Content Include="..\Sounds\Cries\138.wav" />
+    <Content Include="..\Sounds\Cries\139.wav" />
+    <Content Include="..\Sounds\Cries\140.wav" />
+    <Content Include="..\Sounds\Cries\141.wav" />
+    <Content Include="..\Sounds\Cries\142.wav" />
+    <Content Include="..\Sounds\Cries\142M.wav" />
+    <Content Include="..\Sounds\Cries\143.wav" />
+    <Content Include="..\Sounds\Cries\144.wav" />
+    <Content Include="..\Sounds\Cries\145.wav" />
+    <Content Include="..\Sounds\Cries\146.wav" />
+    <Content Include="..\Sounds\Cries\147.wav" />
+    <Content Include="..\Sounds\Cries\148.wav" />
+    <Content Include="..\Sounds\Cries\149.wav" />
+    <Content Include="..\Sounds\Cries\150.wav" />
+    <Content Include="..\Sounds\Cries\150X.wav" />
+    <Content Include="..\Sounds\Cries\150Y.wav" />
+    <Content Include="..\Sounds\Cries\151.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(SolutionDir)..\..\RimWorldWin.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>echo F|xcopy "$(ProjectDir)..\About\About-$(ConfigurationName).xml" "$(TargetDir)..\About\About.xml" /C /Y /K /Q /D
+IF /I "$(ConfigurationName)" == "Release"; echo F|xcopy "$(ProjectDir)..\About\Preview.png" "$(TargetDir)..\About\Preview.png" /S /C /Y /K /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Assemblies" "$(TargetDir)..\Assemblies" /S /C /Y /K /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Defs" "$(TargetDir)..\Defs" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Patches" "$(TargetDir)..\Patches" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Languages" "$(TargetDir)..\Languages" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Sounds" "$(TargetDir)..\Sounds" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Textures" "$(TargetDir)..\Textures" /S /C /Y /K /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; IF EXIST "$(ProjectDir)..\LICENSE"; copy "$(ProjectDir)..\LICENSE" "$(TargetDir)..\LICENSE" /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Overgrow</defName>
+        <label>Overgrow</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Blaze</defName>
+        <label>Blaze</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Torrent</defName>
+        <label>Torrent</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Shield_Dust</defName>
+        <label>Shield Dust</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Shed_Skin</defName>
+        <label>Shed Skin</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Compoundeyes</defName>
+        <label>Compoundeyes</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Swarm</defName>
+        <label>Swarm</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Keen_Eye</defName>
+        <label>Keen Eye</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Run_Away</defName>
+        <label>Run Away</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Intimidate</defName>
+        <label>Intimidate</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Static</defName>
+        <label>Static</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Sand_Veil</defName>
+        <label>Sand Veil</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Poison_Point</defName>
+        <label>Poison Point</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Cute_Charm</defName>
+        <label>Cute Charm</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Flash_Fire</defName>
+        <label>Flash Fire</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Inner_Focus</defName>
+        <label>Inner Focus</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Chlorophyll</defName>
+        <label>Chlorophyll</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Effect_Spore</defName>
+        <label>Effect Spore</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Pickup</defName>
+        <label>Pickup</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Limber</defName>
+        <label>Limber</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Damp</defName>
+        <label>Damp</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Vital_Spirit</defName>
+        <label>Vital Spirit</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Water_Absorb</defName>
+        <label>Water Absorb</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Synchronize</defName>
+        <label>Synchronize</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Guts</defName>
+        <label>Guts</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Clear_Body</defName>
+        <label>Clear Body</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Rock_Head</defName>
+        <label>Rock Head</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Oblivious</defName>
+        <label>Oblivious</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Magnet_Pull</defName>
+        <label>Magnet Pull</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Thick_Fat</defName>
+        <label>Thick Fat</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Stench</defName>
+        <label>Stench</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Shell_Armor</defName>
+        <label>Shell Armor</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Levitate</defName>
+        <label>Levitate</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Insomnia</defName>
+        <label>Insomnia</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Hyper_Cutter</defName>
+        <label>Hyper Cutter</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Soundproof</defName>
+        <label>Soundproof</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Own_Tempo</defName>
+        <label>Own Tempo</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Lightningrod</defName>
+        <label>Lightningrod</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Natural_Cure</defName>
+        <label>Natural Cure</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Early_Bird</defName>
+        <label>Early Bird</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Swift_Swim</defName>
+        <label>Swift Swim</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Illuminate</defName>
+        <label>Illuminate</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Flame_Body</defName>
+        <label>Flame Body</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Volt_Absorb</defName>
+        <label>Volt Absorb</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Trace</defName>
+        <label>Trace</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Immunity</defName>
+        <label>Immunity</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Pressure</defName>
+        <label>Pressure</label>
+    </Pokemon.PokemonAbilityDef>
+
+    <Pokemon.PokemonAbilityDef>
+        <defName>Solar_Power</defName>
+        <label>Solar Power</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Rain_Dish</defName>
+        <label>Rain Dish</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Tinted_Lens</defName>
+        <label>Tinted Lens</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Sniper</defName>
+        <label>Sniper</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Big_Pecks</defName>
+        <label>Big Pecks</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Hustle</defName>
+        <label>Hustle</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Unnerve</defName>
+        <label>Unnerve</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Sand_Rush</defName>
+        <label>Sand Rush</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Sheer_Force</defName>
+        <label>Sheer Force</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Friend_Guard</defName>
+        <label>Friend Guard</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Unaware</defName>
+        <label>Unaware</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Drought</defName>
+        <label>Drought</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Frisk</defName>
+        <label>Frisk</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Infiltrator</defName>
+        <label>Infiltrator</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Wonder_Skin</defName>
+        <label>Wonder Skin</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Sand_Force</defName>
+        <label>Sand Force</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Defiant</defName>
+        <label>Defiant</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Justified</defName>
+        <label>Justified</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Magic_Guard</defName>
+        <label>Magic Guard</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Steadfast</defName>
+        <label>Steadfast</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Gluttony</defName>
+        <label>Gluttony</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Regenerator</defName>
+        <label>Regenerator</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Analytic</defName>
+        <label>Analytic</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Tangled_Feet</defName>
+        <label>Tangled Feet</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Ice_Body</defName>
+        <label>Ice Body</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Poison_Touch</defName>
+        <label>Poison Touch</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Overcoat</defName>
+        <label>Overcoat</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Weak_Armor</defName>
+        <label>Weak Armor</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Aftermath</defName>
+        <label>Aftermath</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Harvest</defName>
+        <label>Harvest</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Battle_Armor</defName>
+        <label>Battle Armor</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Unburden</defName>
+        <label>Unburden</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Cloud_Nine</defName>
+        <label>Cloud Nine</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Reckless</defName>
+        <label>Reckless</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Healer</defName>
+        <label>Healer</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Technician</defName>
+        <label>Technician</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Dry_Skin</defName>
+        <label>Dry Skin</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Moxie</defName>
+        <label>Moxie</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Rattled</defName>
+        <label>Rattled</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Hydration</defName>
+        <label>Hydration</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Imposter</defName>
+        <label>Imposter</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Anticipation</defName>
+        <label>Anticipation</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Quick_Feet</defName>
+        <label>Quick Feet</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Snow_Cloak</defName>
+        <label>Snow Cloak</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Marvel_Scale</defName>
+        <label>Marvel Scale</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Multiscale</defName>
+        <label>Multiscale</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Rivalry</defName>
+        <label>Rivalry</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Arena_Trap</defName>
+        <label>Arena Trap</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Anger_Point</defName>
+        <label>Anger Point</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>No_Guard</defName>
+        <label>No Guard</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Liquid_Ooze</defName>
+        <label>Liquid Ooze</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Sturdy</defName>
+        <label>Sturdy</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Sticky_Hold</defName>
+        <label>Sticky Hold</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Skill_Link</defName>
+        <label>Skill Link</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Forewarn</defName>
+        <label>Forewarn</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Iron_Fist</defName>
+        <label>Iron Fist</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Serene_Grace</defName>
+        <label>Serene Grace</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Leaf_Guard</defName>
+        <label>Leaf Guard</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Scrappy</defName>
+        <label>Scrappy</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Water_Veil</defName>
+        <label>Water Veil</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Filter</defName>
+        <label>Filter</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Mold_Breaker</defName>
+        <label>Mold Breaker</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Adaptability</defName>
+        <label>Adaptability</label>
+    </Pokemon.PokemonAbilityDef>
+    <Pokemon.PokemonAbilityDef>
+        <defName>Download</defName>
+        <label>Download</label>
+    </Pokemon.PokemonAbilityDef>
+</Defs>
