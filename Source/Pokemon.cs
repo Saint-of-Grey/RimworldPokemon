@@ -57,7 +57,7 @@ namespace Pokemon
                     else tool.power *= 1f * pokedexDef.Atk / Pokemon.latest.BaseStat;
                 }
 
-                Log.Message("Setup " + thingDef.label);
+//                Log.Message("Setup " + thingDef.label);
             }
         }
 
